@@ -1,7 +1,7 @@
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
     background-color: rgb(228, 163, 228);
-    color: white;     
+    color: white;    
 }
 
 div#full {
@@ -16,6 +16,9 @@ div#full {
     margin-top: 50px;
 }
 
+div#perfil:hover{
+    transform: scale(1.2);
+}
 div#perfil {
     display: flex;
     align-items: center;
@@ -39,14 +42,45 @@ span.titles {
     font-size: 150%;
     align-content: first baseline;
     font-weight: bold;
+    margin-bottom: 2px;
 }
 
 div#description {
     align-items: center;
     justify-content: center;
+    display: flex;   
+}
+
+div#index {
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+}
+
+div#courses {
+    align-items: center;
+    align-content: first baseline;
     display: flex;
+}
+
+span.subtitle {
+    font-size: 115%;
+    align-content: first baseline;
+    font-weight: bold;
+}
+
+a {
+   align-content: first baseline;
+   font-weight: bold;
+   margin-top: 50px;
     
 }
 
-
-
+a:hover{
+    transform: scale(1.2);
+}
+.sub {
+    font-size: 100%;
+    align-content: first baseline;
+    font-weight: bold;
+}
