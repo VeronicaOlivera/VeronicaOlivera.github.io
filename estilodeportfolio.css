@@ -6,7 +6,8 @@
 
 div#full {
     max-width: 50%;
-    margin: auto;           
+    margin: auto;
+    display: block;           
 
 }
 
@@ -28,7 +29,7 @@ div#perfil {
 
 p {
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 15px;
     ;
 }
 
@@ -45,6 +46,10 @@ span.titles {
     margin-bottom: 2px;
 }
 
+span.titles:hover{
+    transform: scale(1.2);
+}
+
 div#description {
     align-items: center;
     justify-content: center;
@@ -59,8 +64,6 @@ div#index {
 
 div#courses {
     align-items: center;
-    align-content: first baseline;
-    display: flex;
 }
 
 span.subtitle {
@@ -72,8 +75,15 @@ span.subtitle {
 a {
    align-content: first baseline;
    font-weight: bold;
-   margin-top: 50px;
+   margin-top: 10px;
     
+}
+
+div.card {
+    margin-left: 15px;
+}
+div.card:hover{
+    transform: scale(1.2);
 }
 
 a:hover{
@@ -84,3 +94,13 @@ a:hover{
     align-content: first baseline;
     font-weight: bold;
 }
+
+textarea {
+    margin-left: 15px;
+    width: 346px; 
+    height:60px;
+}
+
+input[type=text] {
+    width: 156px; 
+  }
